@@ -1,0 +1,69 @@
+.if_squere{
+    display: none;
+}
+.if_69420{
+    display: none;
+}
+
+@media (aspect-ratio: 1/1) {
+    .main {
+        display: none;
+    }
+    .if_squere {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: Jersey15-Regular;
+        font-size: 8vw;
+        background-color: #111;
+        color: #ffffff;
+        font-weight: 100;
+        animation: glow 1s infinite alternate;
+        padding: 10vw;
+        margin-top: -10vw;
+    }
+    @keyframes glow {
+        0%   { color: #ffd6e8; text-shadow: 0 0 15px #ffd6e8; }   /* Pastel Pink */
+        25%  { color: #cceeff; text-shadow: 0 0 15px #cceeff; }   /* Baby Blue */
+        50%  { color: #d8ffd6; text-shadow: 0 0 15px #d8ffd6; }   /* Mint Green */
+        75%  { color: #e3d6ff; text-shadow: 0 0 15px #e3d6ff; }   /* Lavender */
+        100% { color: #ffd6e8; text-shadow: 0 0 15px #ffd6e8; }
+    }
+
+    body {
+        background-color: black;
+        background-image: none;
+    }
+}
+@media (aspect-ratio: 69/420) or (aspect-ratio: 420/69) {
+    .main {
+        display: none;
+    }
+    .if_69420 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: Jersey15-Regular;
+        font-size: 2vw;
+        background-color: #111;
+        color: #ffffff;
+        font-weight: 100;
+        animation: glow 1s infinite alternate;
+    }
+    @keyframes glow {
+        0%   { color: #ffd6e8; text-shadow: 0 0 15px #ffd6e8; }   /* Pastel Pink */
+        25%  { color: #cceeff; text-shadow: 0 0 15px #cceeff; }   /* Baby Blue */
+        50%  { color: #d8ffd6; text-shadow: 0 0 15px #d8ffd6; }   /* Mint Green */
+        75%  { color: #e3d6ff; text-shadow: 0 0 15px #e3d6ff; }   /* Lavender */
+        100% { color: #ffd6e8; text-shadow: 0 0 15px #ffd6e8; }
+    }
+
+    body {
+        background-color: black;
+        background-image: none;
+    }
+}

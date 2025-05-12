@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Jersey15-Regular;
+    src: url('Font/Jersey15-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Console;
+    src: url('Font/Console.ttf') format('truetype');
+}
+.abilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.abilities h1{
+    font-family: Jersey15-Regular;
+    font-size: 5vw;
+    color: #2322F9;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.abilities p, .abilities li{
+    font-family: Console;
+    font-size: 1vw;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 1px #333333;
+}
+.abilities ul{
+    margin-left: -25%;
+    width: 60%;
+}
+.abilities li{
+    font-size: 1.5vw;
+    margin: 5px 0 5px 0;
+}
+.abilities img{
+    transform: scale(0.8);
+    transform-origin: top left;
+}
+.abilities_r1, .abilities_r2, .abilities_r3 {
+    display: grid;
+    margin: 1px;
+    width: calc((50vw + 30vh) - 20px);
+}
+.abilities_r1, .abilities_r2 {
+    grid-template-areas: 
+        "s1 s2 s3"; 
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: auto auto;  
+}
+.abilities_r2 {
+    margin-top: 20%;
+}
+.abilities_r3 {
+    grid-template-areas: 
+        "s1 s2"; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;    
+    margin-top: 20%;  
+}
+
+.abilities_r1s1, .abilities_r1s2, .abilities_r1s3, .abilities_r2s1, .abilities_r2s2, .abilities_r2s3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((50vw + 30vh) / 3 - 20px);
+    margin: 10px;
+}
+.abilities_r3s1, .abilities_r3s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((50vw + 30vh) / 2 - 20px);
+    margin: 10px;
+}
+
+/* EVIL SEKCE*/
+
+.abilities_r1s1 img, .abilities_r1s2 img, .abilities_r1s3 img, .abilities_r2s1 img, .abilities_r2s2 img, .abilities_r2s3 img{
+    position: absolute;
+}
+
+.abilities_r1s1 {
+    grid-area: s1;
+    background-color: rgba(255, 0, 0, 0.363);
+}
+.abilities_r1s1 img{
+    width: 22%;
+    margin: 10% 0 0 0;
+}
+.abilities_r1s2 {
+    grid-area: s2;
+    background-color: rgba(255, 255, 0, 0.363);
+}
+.abilities_r1s2 img{
+    width: 28%;
+    margin: 7% -5% 0 0;
+}
+.abilities_r1s3 {
+    grid-area: s3;
+    background-color: rgba(0, 255, 0, 0.363);
+}
+.abilities_r1s3 img{
+    width: 26%;
+    margin: 10% -5% 0 0;
+}
+.abilities_r2s1 {
+    grid-area: s1;
+    background-color: rgba(0, 0, 255, 0.363);
+}
+.abilities_r2s1 img{
+    width: 26%;
+    margin: 10% 2% 0 0;
+}
+.abilities_r2s2 {
+    grid-area: s2;
+    background-color: rgba(255, 0, 255, 0.363);
+    margin: -25% 20% 0 0;
+}
+.abilities_r2s3 {
+    grid-area: s3;
+    background-color: rgba(0, 255, 255, 0.363);
+}
+.abilities_r2s3 img{
+    width: 28%;
+    margin: 25% -3% 0 0;
+}
+.abilities_r3s1 {
+    grid-area: s1;
+    background-color: rgba(255, 0, 0, 0.363);
+}
+.abilities_r3s1 img{
+    width: 22%;
+    margin: 10% 0 0 0;
+}
+.abilities_r3s2 {
+    grid-area: s2;
+    background-color: rgba(255, 255, 0, 0.363);
+}
+.abilities_r3s2 img{
+    width: 22%;
+    margin: 10% 0 0 0;
+}
