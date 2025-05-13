@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Jersey15-Regular;
+    src: url('Font/Jersey15-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Console;
+    src: url('Font/Console.ttf') format('truetype');
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.projects h1{
+    font-family: Jersey15-Regular;
+    font-size: 5vw;
+    color: #2322F9;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.projects p, .projects li{
+    font-family: Console;
+    font-size: 1vw;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 1px #333333;
+}
+.projects li{
+    font-size: 1.5vw;
+    margin: -1px 0 -1px 0;
+}
+.projects img{
+    transform: scale(0.8);
+    transform-origin: top left;
+}

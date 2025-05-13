@@ -37,7 +37,11 @@ body{
 
 .main{
     object-fit: cover;
-    background-color: rb(102, 51, 153);
+    /*
+    background-color: rgba(255, 255, 255, 0.827);
+    box-shadow: 0 0 100px 10px rgba(255, 255, 255, 0.827);
+    */
+    z-index: -10;
 }
 
 
@@ -45,7 +49,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
     margin-bottom: 15vh;
 }
 .heropage_background{
@@ -182,7 +186,7 @@ to {
         width: 110vw;
     }
     .heropage{
-        margin-left: -15%;
+        margin-left: 11vw;
     }
     .about {
     grid-template-areas:
@@ -195,7 +199,7 @@ to {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -7%;
+    margin-left: 11vw;
     margin-bottom: 100vw;
     }
     .about_s3, .about_s4, .about_s2 {
@@ -245,10 +249,3 @@ to {
     }
 }
 
-.projects{
-
-}
-
-.contacts{
-
-}

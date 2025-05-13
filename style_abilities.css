@@ -90,7 +90,6 @@
 
 .abilities_r1s1 {
     grid-area: s1;
-    background-color: rgba(255, 0, 0, 0.363);
 }
 .abilities_r1s1 img{
     width: 22%;
@@ -98,7 +97,9 @@
 }
 .abilities_r1s2 {
     grid-area: s2;
-    background-color: rgba(255, 255, 0, 0.363);
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    padding: 15% 2% 15% 2%;
 }
 .abilities_r1s2 img{
     width: 28%;
@@ -106,7 +107,6 @@
 }
 .abilities_r1s3 {
     grid-area: s3;
-    background-color: rgba(0, 255, 0, 0.363);
 }
 .abilities_r1s3 img{
     width: 26%;
@@ -114,7 +114,6 @@
 }
 .abilities_r2s1 {
     grid-area: s1;
-    background-color: rgba(0, 0, 255, 0.363);
 }
 .abilities_r2s1 img{
     width: 26%;
@@ -122,30 +121,72 @@
 }
 .abilities_r2s2 {
     grid-area: s2;
-    background-color: rgba(255, 0, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
     margin: -25% 20% 0 0;
+    padding: 15% 2% 15% 2%;
 }
 .abilities_r2s3 {
     grid-area: s3;
-    background-color: rgba(0, 255, 255, 0.363);
 }
 .abilities_r2s3 img{
     width: 28%;
-    margin: 25% -3% 0 0;
+    margin: 13% -3% 0 0;
 }
 .abilities_r3s1 {
     grid-area: s1;
-    background-color: rgba(255, 0, 0, 0.363);
 }
 .abilities_r3s1 img{
-    width: 22%;
-    margin: 10% 0 0 0;
+    width: 65%;
+    margin: -25% 0 0 0;
+    z-index: -1;
 }
 .abilities_r3s2 {
     grid-area: s2;
-    background-color: rgba(255, 255, 0, 0.363);
 }
 .abilities_r3s2 img{
-    width: 22%;
-    margin: 10% 0 0 0;
+    width: 65%;
+    margin: -20% 0 0 -60%;
+    z-index: -1;
+}
+.abilities_r3s2 img:nth-child(2) {
+    width: 60%;
+    margin: -45% 0 0 -110%;
+}
+
+@media (orientation: portrait) {
+    
+    .abilities{
+        width: 100vw;
+        margin-left: 25vw;
+    }
+    .abilities_r1s1, .abilities_r1s3, .abilities_r2s1, .abilities_r2s3, .abilities_r3s1{
+        display: none;
+    }
+    .abilities_r1s2{
+        
+    }
+    .abilities_r1s2 img{
+        width: 70%;
+        margin-left: 10%;
+    }
+    .abilities h1{
+        font-size: 8vh;
+        margin-top: -5vh;
+    }
+    .abilities p, .abilities li{
+        font-size: 140%;
+        width: 170%;
+        background-color: rgba(255, 255, 255, 0.801);
+        box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    }
+    .abilities_r3s2 img{
+        margin: -90% 0% 0 -170%;
+        width: 100%;
+    }
+    .abilities_r3s2 img:nth-child(2){
+        margin: -140% 0% 0 -180%;
+        width: 90%;
+    }
+    
 }

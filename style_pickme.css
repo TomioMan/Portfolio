@@ -106,8 +106,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;      
         gap: 10px;
-        margin-bottom: 20px;
-        margin-left: 1%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-left: 15vw;
     }
     .pick_me_r1s1, .pick_me_r1s2, .pick_me_r1s3, .pick_me_r1s4{
         width: calc((50vw + 20vh) - 20px);
@@ -123,10 +124,11 @@
         margin-top: 20%;
     }
     .pick_me h1{
-        font-size: 10vw;
+        font-size: 8vh;
+        margin-top: 3vh;
     }
     .pick_me p, .pick_me li{
-        font-size: 3vw;
+        font-size: 140%;
     }
 }
 
