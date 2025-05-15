@@ -35,7 +35,10 @@
 }
 .pick_me li{
     font-size: 1.5vw;
-    margin: -1px 0 -1px 0;
+    margin: 8px 0 8px 0;
+}
+.pick_me ul{
+    margin-bottom: 10%;
 }
 .pick_me img{
     transform: scale(0.8);

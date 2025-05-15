@@ -39,7 +39,7 @@
 }
 .abilities li{
     font-size: 1.5vw;
-    margin: 5px 0 5px 0;
+    margin: 8px 0 8px 0;
 }
 .abilities img{
     transform: scale(0.8);
@@ -57,7 +57,7 @@
     grid-template-rows: auto auto;  
 }
 .abilities_r2 {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .abilities_r3 {
     grid-template-areas: 
@@ -103,7 +103,7 @@
 }
 .abilities_r1s2 img{
     width: 28%;
-    margin: 7% -5% 0 0;
+    margin: 7% -4% 0 0;
 }
 .abilities_r1s3 {
     grid-area: s3;
