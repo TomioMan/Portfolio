@@ -186,7 +186,7 @@ to {
         width: 110vw;
     }
     .heropage{
-        margin-left: 11vw;
+        margin-left: -11vw;
     }
     .about {
     grid-template-areas:

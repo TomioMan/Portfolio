@@ -110,8 +110,8 @@
     margin: 10% -20% 0 0;
 }
 .contacts_r1s2 img{
-    width: 28%;
-    margin: 7% -10% 0 0;
+    width: 25%;
+    margin: 3% -6% 0 0;
 }
 .contacts_r1s3 {
     grid-area: s3;
@@ -133,4 +133,29 @@
 .contacts_r2s2 img{
     width: 24%;
     margin: 10% -12% 0 0;
+}
+
+@media (orientation: portrait) {
+    .contacts_r1s1 img, .contacts_r2s1 img, .contacts_r2s2 img{
+        display: none;
+    }
+    .contacts_r1s2 img{
+        width: 70%;
+        margin: 0 -10% 0 0;
+    }
+    .contacts_r1s3 img{
+        width: 50%;
+        margin: 80% 0 10% -55%;
+        z-index: -1;
+    }
+    .contacts h1{
+        font-size: 8vh;
+        margin: -10vh 0 0 0;
+    }
+    .contacts p, .contacts li{
+        font-size: 140%;
+        width: 170%;
+        background-color: rgba(255, 255, 255, 0.801);
+        box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    }
 }

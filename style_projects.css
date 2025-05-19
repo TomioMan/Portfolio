@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+    margin-bottom: 50vh;
 }
 .projects h1{
     font-family: Jersey15-Regular;
@@ -37,7 +38,56 @@
     font-size: 1.5vw;
     margin: -1px 0 -1px 0;
 }
-.projects img{
-    transform: scale(0.8);
-    transform-origin: top left;
+.projects_intro{
+    width: calc((50vw + 30vh) / 1.5 - 20px);
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+}
+.projects_intro p{
+    margin: 50px 0px 0px 0px;
+    padding: 50px
+}
+.projects_r_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc((50vw + 30vh) - 20px);
+    margin: 0 1% 0 0;
+}
+.projects_r_ img{
+    width: 30vw;
+}
+.projects_r1, .projects_r2 {
+    width: calc((50vw + 30vh) - 20px);
+}
+.projects_r1 {
+    margin: 0 10% 0 0;
+}
+.projects_r1_yap {
+    width: 50%;
+    margin: -90% 0 0 48%;
+}
+.projects_r2_yap {
+    margin: -70% 0 0 0;
+}
+.projects_r1_yap h1 , .projects_r2_yap h1{
+    padding: 50px;
+    font-size: 3vw;
+
+}
+
+@media (orientation: portrait){
+    .projects{
+        margin-top: 20vh;
+        margin-bottom: 60vh;
+    }
+    .projects_intro h1{
+        font-size: 8vh;
+    }
+    .projects_intro p, .projects_intro li{
+        font-size: 140%;
+        background-color: rgba(255, 255, 255, 0.801);
+        box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+        padding: 0;
+    }
 }
