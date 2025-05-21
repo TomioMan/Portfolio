@@ -15,7 +15,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
     margin-bottom: 28vh;
 }
 .contacts h1{
@@ -140,8 +139,8 @@
         display: none;
     }
     .contacts_r1s2 img{
-        width: 70%;
-        margin: 0 -10% 0 0;
+        width: 80%;
+        margin: -3% -18% 0 0;
     }
     .contacts_r1s3 img{
         width: 50%;
@@ -157,5 +156,10 @@
         width: 170%;
         background-color: rgba(255, 255, 255, 0.801);
         box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    }
+}
+@media (max-width: 600px) {
+    .contacts_r1s2 img{
+        width: 120%;
     }
 }

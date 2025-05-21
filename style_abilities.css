@@ -163,9 +163,6 @@
     .abilities_r1s1, .abilities_r1s3, .abilities_r2s1, .abilities_r2s3, .abilities_r3s1{
         display: none;
     }
-    .abilities_r1s2{
-        
-    }
     .abilities_r1s2 img{
         width: 70%;
         margin-left: 10%;

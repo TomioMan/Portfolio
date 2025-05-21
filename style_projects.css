@@ -47,33 +47,31 @@
     margin: 50px 0px 0px 0px;
     padding: 50px
 }
-.projects_r_{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: calc((50vw + 30vh) - 20px);
-    margin: 0 1% 0 0;
+.projects_main{
+    display: grid;
+    grid-template-areas: 
+        "s1 s2";
+    margin: 0 7% 0 0;
 }
-.projects_r_ img{
-    width: 30vw;
+.projects_r1s1{
+    grid-area: s1;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    width: calc((50vw + 30vh) /2.2 - 20px);
 }
-.projects_r1, .projects_r2 {
-    width: calc((50vw + 30vh) - 20px);
+.projects_r1s1 img{
+    width: calc((50vw + 30vh) /2.2 - 20px);
+    margin-right: 10%;
 }
-.projects_r1 {
-    margin: 0 10% 0 0;
+.projects_r1s2{
+    grid-area: s2;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    width: calc((50vw + 30vh) /2.5 - 20px);
 }
-.projects_r1_yap {
-    width: 50%;
-    margin: -90% 0 0 48%;
-}
-.projects_r2_yap {
-    margin: -70% 0 0 0;
-}
-.projects_r1_yap h1 , .projects_r2_yap h1{
-    padding: 50px;
-    font-size: 3vw;
-
+.projects_r1s2 img{
+    width: calc((50vw + 30vh) /2.2 - 20px);
+    margin-left: 10%;
 }
 
 @media (orientation: portrait){
@@ -90,4 +88,17 @@
         box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
         padding: 0;
     }
+    .projects_main{
+        grid-template-areas: 
+            "s1" 
+            "s2";
+    }
+    .projects_r1s1 img, .projects_r1s2 img{
+        margin:  10vh 0 0 -12vw;
+
+        width: 80vw;
+
+    }
+
+
 }
