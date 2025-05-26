@@ -14,6 +14,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 body{
     display: flex;
@@ -41,7 +42,7 @@ body{
     background-color: rgba(255, 255, 255, 0.827);
     box-shadow: 0 0 100px 10px rgba(255, 255, 255, 0.827);
     */
-    z-index: -10;
+    z-index: 0;
 }
 
 
@@ -175,6 +176,20 @@ to {
 .about_s1, .about_s2, .about_s3, .about_s4 {
     width: calc((50vw + 30vh) / 2 - 20px);
     height: calc((30vw + 20vh) / 2 - 20px);
+}
+.resources{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: Console;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+    text-align: center;
+    cursor: grab;
+    z-index: 10;
+    margin: auto;
 }
 
 
