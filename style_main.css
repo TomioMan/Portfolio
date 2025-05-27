@@ -16,23 +16,23 @@ html{
     align-items: center;
     overflow-x: hidden;
 }
-body{
+body {
     display: flex;
     justify-content: center;
     background-image: url(images/background/what.png);
     background-size: 50vh;
     background-color: rgba(255, 255, 255, 0.753);
     background-blend-mode: lighten;
-    animation: back 30s infinite;
-    animation-timing-function: linear;
+    animation: back 1000s linear infinite;
+    background-repeat: repeat;
+    background-position: 0% 0%;
     width: 80vw;
     overflow-x: hidden;
 }
+
 @keyframes back {
-    0%{background-position:top;}
-    0%{background-position: left;}
-    100%{background-position: right;}
-    100%{background-position:bottom;}
+    0%   { background-position: 0% 0%; }
+    100% { background-position: 2000% 1000%; }
 }
 
 
@@ -241,13 +241,13 @@ to {
         z-index: 10;
         background-color: rgba(255, 255, 255, 0.801);
         box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
-        margin-top: -65%;
+        margin-top: -85%;
         margin-left: 10%;
 
     }
     .about_s1_portrait h1{
         font-family: Jersey15-Regular;
-        font-size: 8vw;
+        font-size: 6vh;
         font-weight: 500;
         color: #2322F9;
         padding: 5px;
@@ -255,7 +255,7 @@ to {
     }
     .about_s1_portrait p{
         font-family: Console;
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-weight: 500;
         color: #000000;
         padding: 10px 4vw 0px 4vw;
