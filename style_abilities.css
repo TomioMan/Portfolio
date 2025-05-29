@@ -45,6 +45,9 @@
     transform: scale(0.8);
     transform-origin: top left;
 }
+
+    /* -=- Broad Grid Defining -=- */
+
 .abilities_r1, .abilities_r2, .abilities_r3 {
     display: grid;
     margin: 1px;
@@ -82,7 +85,7 @@
     margin: 10px;
 }
 
-/* EVIL SEKCE*/
+    /* -=- Grid Defining -=- */
 
 .abilities_r1s1 img, .abilities_r1s2 img, .abilities_r1s3 img, .abilities_r2s1 img, .abilities_r2s2 img, .abilities_r2s3 img{
     position: absolute;
@@ -153,6 +156,8 @@
     width: 60%;
     margin: -45% 0 0 -110%;
 }
+
+    /* -=- Responsivity -=- */
 
 @media (orientation: portrait) {
     

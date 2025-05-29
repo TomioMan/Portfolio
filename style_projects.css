@@ -53,6 +53,9 @@
         "s1 s2";
     margin: 0 7% 0 0;
 }
+
+    /* -=- Grid Defining -=- */
+
 .projects_r1s1{
     grid-area: s1;
     background-color: rgba(255, 255, 255, 0.801);
@@ -73,6 +76,8 @@
     width: calc((50vw + 30vh) /2.2 - 20px);
     margin-left: 10%;
 }
+
+    /* -=- Responsivity -=- */
 
 @media (orientation: portrait){
     .projects{
@@ -96,7 +101,7 @@
     .projects_r1s1 img, .projects_r1s2 img{
         margin:  10vh 0 0 -12vw;
 
-        width: 80vw;
+        width: 70vw;
 
     }
 

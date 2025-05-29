@@ -45,7 +45,6 @@
     transform-origin: top left;
 }
 
-
 .pick_me_r1 {
     display: grid;
     grid-template-areas: 
@@ -56,6 +55,9 @@
     gap: 10px;
     margin-bottom: 20px;
 }
+
+    /* -=- Broad Grid Defining -=- */
+
 .pick_me_r1s1, .pick_me_r1s2, .pick_me_r1s3, .pick_me_r1s4{
     display: flex;
     justify-content: center;
@@ -69,7 +71,7 @@
     height: 30vh;
 }
 
-/* EVIL SEKCE*/
+    /* -=- Grid Defining -=- */
 
 .pick_me_r1s1{
     grid-area: s1;

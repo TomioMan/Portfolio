@@ -16,6 +16,7 @@ html{
     align-items: center;
     overflow-x: hidden;
 }
+ 
 body {
     display: flex;
     justify-content: center;
@@ -38,13 +39,10 @@ body {
 
 .main{
     object-fit: cover;
-    /*
-    background-color: rgba(255, 255, 255, 0.827);
-    box-shadow: 0 0 100px 10px rgba(255, 255, 255, 0.827);
-    */
     z-index: 0;
 }
 
+    /* -=- Heropage -=- */
 
 .heropage{
     display: flex;
@@ -65,19 +63,8 @@ body {
 .heropage_logo img{
     width: 80vw;
     box-shadow: none;
-    /*
-    offset-path: path("M 75 50 C 50 0, 0 0, 25 50 C 0 100, 50 100, 75 50 C 100 0, 150 0, 125 50 C 150 100, 100 100, 75 50");
-    offset-distance: 0%;
-    offset-rotate: 0deg; 
-    animation: moveInfinity 12s linear infinite;
-    */
-}
-@keyframes moveInfinity {
-to {
-    offset-distance: 100%;
 }
 
-}
 .heropage_logo h1{
     margin-left: calc(30vw - 10vw);
     font-family: Jersey15-Regular;
@@ -86,7 +73,7 @@ to {
     color: #2322F9;
 }
 
-
+    /* -=- About me -=- */
 
 .about {
     display: grid;
@@ -101,6 +88,8 @@ to {
     transform: scale(0.8);
     transform-origin: top left;
 }
+
+    /* -=- Grid Defining -=- */
 
 .about_s1 {
     grid-area: s1;
@@ -177,21 +166,33 @@ to {
     width: calc((50vw + 30vh) / 2 - 20px);
     height: calc((30vw + 20vh) / 2 - 20px);
 }
+
+    /* -=- Resources -=- */
+
 .resources{
     display: flex;
     justify-items: center;
     align-items: center;
     font-family: Console;
-    text-decoration: none;
+    flex-direction: column;
+    z-index: 10;
+}
+.resources a{
     color: #000000;
     background-color: rgba(255, 255, 255, 0.801);
     box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
-    text-align: center;
-    cursor: grab;
-    z-index: 10;
-    margin: auto;
+    text-decoration: none;
+    padding: 20px;
+    border: #000000 solid 1px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+.resources a:hover{
+    box-shadow: #2322F9  0px 0px 20px 10px;
+    transform: scale(1.1) translateY(-15px);
 }
 
+    /* -=- Responsivity -=- */
 
 @media (orientation: portrait){
     html{
@@ -201,7 +202,7 @@ to {
         width: 110vw;
     }
     .heropage{
-        margin-left: -11vw;
+        margin-left: -1vw;
     }
     .about {
     grid-template-areas:

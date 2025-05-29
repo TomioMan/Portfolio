@@ -5,6 +5,8 @@
     display: none;
 }
 
+    /* -=- Squere Easter Egg -=- */
+
 @media (aspect-ratio: 1/1) {
     .main {
         display: none;
@@ -36,6 +38,9 @@
         background-color: black;
         background-image: none;
     }
+
+    /* -=- 420:69 / 69:420 Easter Egg -=- */
+
 }
 @media (aspect-ratio: 69/420) or (aspect-ratio: 420/69) {
     .main {
