@@ -27,7 +27,6 @@ body {
     animation: back 1000s linear infinite;
     background-repeat: repeat;
     background-position: 0% 0%;
-    width: 80vw;
     overflow-x: hidden;
 }
 

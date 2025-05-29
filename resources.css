@@ -22,13 +22,15 @@ p{
     color: black;
     margin: 10px;
 }
-html{
+html {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     overflow-x: hidden;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     background-image: url(images/background/what.png);
@@ -38,7 +40,7 @@ body{
     animation: back 1000s linear infinite;
     background-repeat: repeat;
     background-position: 0% 0%;
-    width: 70vw;
+    width: 75vw;
     overflow-x: hidden;
 }
 
