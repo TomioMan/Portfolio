@@ -1,4 +1,2 @@
 obrázky telefonů změnit na ty co tam jsou linknuté
-udělat pozadí perfektní čtverec
-Napsat na resources page fonty
 Narvat logo školy do dokumentace
