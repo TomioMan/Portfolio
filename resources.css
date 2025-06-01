@@ -65,6 +65,7 @@ body::before {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25vh;
 }
 
     /* -=- Top text -=- */
